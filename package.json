@@ -1,0 +1,41 @@
+{
+  "name": "@parserelay/angular",
+  "version": "0.0.1",
+  "description": "Dead-simple drop-in Angular scanner component for ParseRelay: capture or upload an image, get structured fields back.",
+  "license": "MIT",
+  "homepage": "https://parserelay.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parserelay/angular.git"
+  },
+  "bugs": { "url": "https://github.com/parserelay/angular/issues" },
+  "type": "module",
+  "publishConfig": { "access": "public" },
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "files": ["src"],
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "build": "tsc -p tsconfig.json --noEmit"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=17",
+    "@angular/core": ">=17"
+  },
+  "dependencies": {
+    "@parserelay/client": "workspace:*",
+    "@parserelay/core": "workspace:*"
+  },
+  "devDependencies": {
+    "@angular/common": "^18.2.0",
+    "@angular/core": "^18.2.0",
+    "rxjs": "^7.8.0",
+    "tslib": "^2.6.0",
+    "typescript": "^5.4.0",
+    "zone.js": "^0.14.0"
+  }
+}
