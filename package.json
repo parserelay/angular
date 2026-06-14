@@ -1,6 +1,6 @@
 {
   "name": "@parserelay/angular",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Dead-simple drop-in Angular scanner component for ParseRelay: capture or upload an image, get structured fields back.",
   "license": "MIT",
   "homepage": "https://parserelay.app",
