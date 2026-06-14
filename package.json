@@ -27,8 +27,8 @@
     "@angular/core": ">=17"
   },
   "dependencies": {
-    "@parserelay/client": "workspace:*",
-    "@parserelay/core": "workspace:*"
+    "@parserelay/client": "^0.1.0",
+    "@parserelay/core": "^0.1.0"
   },
   "devDependencies": {
     "@angular/common": "^18.2.0",
